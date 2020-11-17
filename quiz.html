@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="renderContent();">
+    <div id="main" class="mainQuiz">
+       <h1 class="quizheader">Physics Quiz</h1> 
+     
+        <div class="content">
+           <p>Time left : </p><p id="min" class="cMin"></p><p>:</p><p id="sec" class="cSec"></p><p>:</p><p id="msec" class="cMsec"></p>
+        <h2 id="question"></h2>
+        <input type="radio" name="options"  value="1">
+        <label for="option1"><span id="option1"></span></label><br>
+        <input type="radio" name="options"  value="2">
+        <label for="option2"><span id="option2"></span></label><br>
+        <input type="radio" name="options"  value="3">
+        <label for="option3"><span id="option3"></span></label><br>
+        <input type="radio" name="options"  value="4">
+        <label for="option4"><span id="option4"></span></label><br><br>
+        <button id="next" onclick="nxtQue()" >Next</button>
+    </div>
+       
+    </div>
+    <h1 id="head" ></h1>
+    <div class="showResult">
+        <h1 id="timeover"></h1>
+    <h1 id="resultStatus"></h1>
+    <h2 id="obtMrks"></h2>
+    <h2 id="percentage"></h2>
+   <div id="image"></div>
+</div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

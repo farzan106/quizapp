@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(236, 221, 221, 0.616);
+    margin: 0px;
+    padding: 0px;
+}
+.indexheader{
+    background-color: indigo;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 15px;
+}
+
+p{
+    text-align: center;
+    display: inline;
+    font-weight: bolder;
+    font-size: large;
+   
+}
+
+.quizheader{
+    background-color: indigo;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 15px;
+}
+.mainQuiz{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mainIndex{
+    text-align: center;
+   
+    font-family: sans-serif;
+    
+
+}
+.startBtn,.nxtBtn{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: medium;
+    color: white;
+    background-color: rgb(21, 155, 21);
+    border-radius: 0.5em;
+    margin: 10px;
+}
+.cheat{
+    border-bottom:rgba(82, 75, 75, 0.616) solid ;
+    padding-bottom: 20px;
+}
+.nextBtn{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    color: white;
+    background-color: rgb(21, 155, 21);
+    border-radius: 0.5em;
+    
+}
+.content{
+    margin: 60px ;
+}
+.showResult{
+    text-align: center;
+    margin: 70px;
+}
+input{
+    margin: 25px;
+}
